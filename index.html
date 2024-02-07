@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Helping Hand</title>
+    <title>Opportunity Pathwyas Initiave</title>
 
-    <link rel="icon" href="images/hand.png" />
+    <link rel="icon" href="/images/Opportunity Pathways Initiative Logo - Original - 5000x5000 (1)_page-0001 (1).jpg" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Google Fonts -->
@@ -69,10 +69,8 @@
 
     <!--***** Nav Bar *****-->
     <nav class="navbar navbar-expand-lg">
-      <a href="#title"
-        ><img src="images/logo.png" alt="HelpingHand_Logo" class="navbarlogo"
-      /></a>
-      <a class="navbar-brand" href="#">Helping Hand</a>
+      <!-- <a href="#title"><img src="/images/" alt="opportunity pathways initiative" class="navbarlogo"/></a> -->
+      <a class="navbar-brand" href="/index.html">Opportunity Pathways Initiative</a>
 
       <button
         class="navbar-toggler"
@@ -126,7 +124,7 @@
             </h1>
             <div>
               <form>
-                <button id="rzp-button1">
+                <!-- <button id="rzp-button1">
                   <i class="fas fa-donate"></i>&nbsp;&nbsp;Donate here
                 </button>
                 <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
@@ -135,7 +133,7 @@
                     key: "rzp_test_aIfnpuWEudWnID", // Enter the Key ID generated from the Dashboard
                     amount: "5000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
                     currency: "INR",
-                    name: "Soumita Biswas",
+                    name: "Opportunity Pathways Initiative ",
                     description: "Please lend a Helping hand",
                     handler: function (response) {
                       if (
@@ -166,6 +164,58 @@
                     rzp1.open();
                     e.preventDefault();
                   };
+                </script> -->
+                <style>
+                  #infoCard {
+                    display: none;
+                    border: 1px solid #ccc;
+                    padding: 15px;
+                    margin-top: 10px;
+                    width: 300px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                  }
+                </style>
+              </head>
+              <body>
+              
+                <!-- <button id="toggleCardButton">Toggle Info Card</button>
+              
+                <div id="infoCard">
+                  <h3>Card Title</h3>
+                  <p>This is some dynamic information.</p>
+                </div>
+              
+                <script>
+                  document.getElementById("toggleCardButton").onclick = function () {
+                    var card = document.getElementById("infoCard");
+                    if (card.style.display === "none") {
+                      card.style.display = "block";
+                      // You can add additional logic here to dynamically populate the card content.
+                    } else {
+                      card.style.display = "none";
+                    }
+                  };
+                </script> -->
+                <div class="container">
+                  <button type="button" class="btn btn-primary btn-lg" id="toggleCardButton">Display Payment Form</button>
+                  <div class="card" id="infoCard" style="display: none;">
+                    <div class="card-body">
+                      <p>M-Pesa Paybill Number: 12345</p>
+                      <p>Phone Number: 1234456</p>
+                      <p>Confirmation Name: Moses Keru </p>
+                    </div>
+                  </div>
+                </div>
+              
+                <script>
+                  document.getElementById("toggleCardButton").onclick = function () {
+                    var card = document.getElementById("infoCard");
+                    if (card.style.display === "none") {
+                      card.style.display = "block";
+                    } else {
+                      card.style.display = "none";
+                    }
+                  };
                 </script>
               </form>
             </div>
@@ -174,17 +224,67 @@
           <div class="col-lg-6">
             <img
               class="title-image"
-              src="images/child-color.jpg"
+              src="images/ai-image 4.jpg"
               alt="child-image"
             />
             <img
               class="title-image1"
-              src="images/child2.jpg"
+              src="images/ai-image 10.jpg"
               alt="child-image"
             />
           </div>
         </div>
       </div>
+    </section>
+    <section id="feature">
+      <div id="fh5co-portfolio">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 text-right heading-section animate-box">
+							<h3 class="text-right">Our Gallery</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
+						</div>
+					</div>
+					<div class="row row-bottom-padded-md">
+						<div class="col-md-12">
+							<ul id="fh5co-portfolio-list">
+								<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image : url(/images/ai-image\ 10.jpg);>
+									<a href="#" class="color-3">
+										<div class="case-studies-summary">
+											<span>Give Love</span>
+											<h2>Donation is caring</h2>
+										</div>
+									</a>
+								</li>
+								<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(/images/ai-image\ 11.jpg); ">
+									<a href="#" class="color-4">
+										<div class="case-studies-summary">
+											<span>Give Love</span>
+											<h2>Donation is caring</h2>
+										</div>
+									</a>
+								</li>
+								<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(/images/ai-image\ 9.jpg); "> 
+									<a href="#" class="color-5">
+										<div class="case-studies-summary">
+											<span>Give Love</span>
+											<h2>Donation is caring</h2>
+										</div>
+									</a>
+								</li>
+								<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(/images/ai-image\ 18.jpg); ">
+									<a href="#" class="color-6">
+										<div class="case-studies-summary">
+											<span>Give Love</span>
+											<h2>Donation is caring</h2>
+										</div>
+									</a>
+								</li>
+							</ul>		
+						</div>
+					</div>
+				</div>
+			</div>
     </section>
 
     <!--***** Features *****-->
@@ -440,13 +540,14 @@
         </div>
       </div>
     </section>
+    
 
     <!--***** Contact Us *****-->
 
     <section id="contact">
       <div class="contact">
         <h2>Contact Us</h2>
-        <p>HAVE SOME QUESTIONS?</p>
+        <p>Feel free to Reach Out</p>
 
         <form class="form" id="myForm" enctype="multipart/form-data">
           <div class="contbutton">
@@ -475,7 +576,7 @@
           </div>
         </form>
 
-        <div class="avatar"></div>
+        <!-- <div class="avatar"></div> --> <img class="avatar" src="/images/Opportunity Pathways Initiative Logo - Original - 5000x5000 (1)_page-0001 (1).jpg" alt="Description of the image">
       </div>
     </section>
 
@@ -539,21 +640,21 @@
           <ul class="sci">
             <li>
               <a
-                href="https://www.facebook.com/soumita.biswas.961/"
+                href="https://www.facebook.com/search/top/?q=opportunity%20pathways%20initiative"
                 target="_blank"
                 ><i class="fa fa-facebook-official" aria-hidden="true"></i
               ></a>
             </li>
 
             <li>
-              <a href="https://www.instagram.com/_.soumita._/" target="_blank"
+              <a href="https://www.instagram.com/opportunity_pathways_ke/" target="_blank"
                 ><i class="fa fa-instagram" aria-hidden="true"></i
               ></a>
             </li>
 
             <li>
               <a
-                href="https://www.linkedin.com/in/soumita-biswas-88b0941ab/"
+                href="https:https://www.facebook.com/search/top/?q=opportunity%20pathways%20initiative"
                 target="_blank"
                 ><i class="fa fa-linkedin" aria-hidden="true"></i
               ></a>
@@ -576,7 +677,7 @@
           <script>
             document.write(new Date().getFullYear());
           </script>
-          || Helping Hand. All rights reserved
+          || . Made by Simon Reagan
         </p>
       </div>
     </footer>

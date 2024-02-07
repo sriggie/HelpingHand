@@ -45,3 +45,22 @@ el.addEventListener('mouseleave', () => {
     el.style.transform = `perspective(300px) rotateY(0deg) rotateX(0deg`
     el.style.boxShadow = ''
 })
+
+// document.getElementById("toggleCardButton").onclick = function () {
+//   var card = document.getElementById("infoCard");
+//   if (card.style.display === "none") {
+//     card.style.display = "block";
+//     // You can add additional logic here to dynamically populate the card content.
+//   } else {
+//     card.style.display = "none";
+//   }
+// };
+document.getElementById("toggleCardButton").onclick = function () {
+    var card = document.getElementById("infoCard");
+    if (card.style.display === "none") {
+      card.style.display = "block";
+      // You can add additional logic here to dynamically populate the card content.
+    } else {
+      card.style.display = "none";
+    }
+  };
